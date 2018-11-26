@@ -20,7 +20,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
     @IBAction func executeButton1(_ sender: UIButton) {
         let text = "Vendor: Amazon\nPrice: $50.00"
-        let shirt1 = UIImage(named: "art.scnassets/buttonDown1.jpg")
+        //let shirt1 = UIImage(named: "art.scnassets/buttonDown1.jpg")
         let shirt2 = UIImage(named: "art.scnassets/buttonDown2.jpg")
         let shirt3 = UIImage(named: "art.scnassets/buttonDown3.jpg")
         getCurrentFrame(img1: shirt1!, img2: shirt2!, img3: shirt3!, description: text)
